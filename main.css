@@ -1,0 +1,46 @@
+.container {
+    width: 400px;
+    height: 180px;
+    background-color: #efefef;
+    color: #333;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#input {
+    height: 25px;
+    width: 200px;
+    margin: 0 10px;
+    border: 1px solid #ff5000;
+    border-radius: 5px;
+    outline: none;
+    padding: 1px 8px;
+}
+
+#input :focus {
+    border-bottom-color: gold;
+}
+
+#confirm {
+    background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 6px 18px;
+}
+
+#confirm:hover {
+    cursor: pointer;
+}
